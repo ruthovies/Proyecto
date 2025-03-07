@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../imagenes_video/logos/Logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Worldwide</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-customcolor">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            
+            <!--Imágenes-->
+            <div class="d-flex align-items-center">
+                <img src="../imagenes_video/logos/Logo.png" alt="Logo" width="40" height="40" class="ms-3">
+                <img src="../imagenes_video/logos/LogoLetra.png" alt="LogoLetra" width="200" height="40" class="ms-2">
+            </div>
+    
+            <!--Botones del navbar (moviles)-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Menú Principal-->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../portfolio/worldwide.html"><b>WORLDWIDE</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><b>INICIO</b></a>
+                    </li>
+                </ul>
+            </div>
+    
+            <!--Menú Redes-->
+            <div class="d-flex align-items-center">
+                <a href="#https://www.facebook.com/Afterlifeofc/" class="me-3"><img src="../imagenes_video/logos/facebook.png" alt="Facebook" width="30"></a>
+                <a href="#https://open.spotify.com/playlist/4YqlPeF8NyuiG6MymeSvK9?si=19163978b73b498a&nd=1&dlsi=bea34b51448d437c" class="me-2"><img src="../imagenes_video/logos/spotify.png" alt="Spotify" width="50"></a>
+                <a href="#https://www.instagram.com/afterlife_ofc/"><img src="../imagenes_video/logos/instagram.png" alt="Instagram" width="41"></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="containercontacto">
+        <h2>Contacta con nosotros</h2>
+        <form action="/enviar" method="POST">
+            <label for="email">Proporcionanos tu correo y nos pondremos en contacto</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
